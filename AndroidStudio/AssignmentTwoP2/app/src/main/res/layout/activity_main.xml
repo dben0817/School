@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Tom!"
+        android:background="#00fff0"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="7dp"/>
+
+    <TextView
+        android:id="@+id/todd"
+        android:layout_width="wrap_content"
+        android:textSize="22sp"
+        android:text="Todd!"
+        android:layout_height="wrap_content"
+        android:background="#fff000"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/tom"/>
+
+    <TextView
+        android:id="@+id/robin"
+        android:layout_width="wrap_content"
+        android:textSize="22sp"
+        android:text="Robin"
+        android:layout_height="wrap_content"
+        android:background="#ff0050"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/>
+    <TextView
+        android:id="@+id/jessie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Jessie"
+        android:background="#ff99ff"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/ted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Ted"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="280dp"/>
+
+    <TextView
+        android:id="@+id/tim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Tim"
+        android:padding="10dp"
+        android:background="#99fff9"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/jeff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Jeff"
+        android:background="#ddaadd"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/tim"
+        />
+
+    <TextView
+        android:id="@+id/jack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Jack"
+        android:background="#aaaaaa"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/jim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Jim"
+        android:background="#ffdaaa"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <TextView
+        android:id="@+id/john"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="John"
+        android:background="#aaddaa"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="forText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#ff08</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="mySeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressTint">#0000ff</item>
+        <item name="android:progressBackgroundTint"></item>
+    </style>
+</resources>
